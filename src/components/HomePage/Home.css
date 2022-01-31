@@ -1,0 +1,33 @@
+/* figcaption{
+    min-height: 60vh;
+} */
+@media (min-width: 320px){
+    h2{
+        width:80%;
+        }
+
+    }
+    
+    @media (min-width: 768px){
+    h2{
+        width:100%; 
+
+    }
+}
+.gif{
+    background-image: url("https://res.cloudinary.com/dsmdcnoys/image/upload/v1643618318/Varios/gif_space_mwlcgo.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
+}
+.figcap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    color:white
+}

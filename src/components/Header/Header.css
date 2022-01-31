@@ -1,0 +1,54 @@
+@media (min-width: 320px){
+    nav{
+        width:100%;
+        }
+
+    }
+    
+    @media (min-width: 768px){
+    nav{
+        width:85%; 
+
+    }
+}  
+
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:5vh;
+    animation: gradient 5s ease infinite alternate-reverse;
+    box-shadow: 0 0 5px black inset,0 0 10px black inset,0 0 15px black inset,0 0 20px black inset,
+    0 0 5px black,0 0 10px black,0 0 15px black;
+    border-radius:50%;
+    
+}
+@keyframes gradient {
+    /* 0%{background-color:rgba(0, 255, 0, 0.616)}
+    50%{background-color: gradient 7s ease infinite alternate-reverse;} */
+    100%{background-color: rgba(0, 255, 0, 0.5)}
+}
+
+.link{
+    margin:5%;
+    text-decoration: none;
+    text-shadow:  0 0 5px rgb(0, 0, 0),0 0 10px rgb(0, 0, 0), 0 0 15px rgb(5, 0, 0),0 0 20px rgb(5, 0, 0);
+    font-weight: bold;
+    color: rgb(2,177,199);
+    font-size: 110%;
+}
+
+.title{
+    background-image: url("https://res.cloudinary.com/dsmdcnoys/image/upload/v1643544423/Varios/title_wi4gx8.png");
+    height:20vh;
+    width:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

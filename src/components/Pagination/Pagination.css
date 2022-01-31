@@ -1,0 +1,17 @@
+.imgPg{
+    width:50px;
+}
+.pagin{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+     padding-top: 2%;
+}
+span{  
+    margin:0 10px 0 10px;
+    color:rgb(0, 197, 0);
+    font-weight: bold;
+    font-size: 115%;
+    text-shadow: 0 0 5px black,0 0 10px black,0 0 15px black,
+    0 0 5px black,0 0 10px black,0 0 20px black;
+}

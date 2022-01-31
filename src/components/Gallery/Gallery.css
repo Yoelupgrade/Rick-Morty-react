@@ -1,0 +1,46 @@
+@media (min-width: 320px){
+    .containerLoc{
+        border-top-left-radius: 35% 5%;
+        border-top-right-radius: 35% 5%;
+        border-bottom-left-radius: 35% 5%;
+        border-bottom-right-radius: 35% 5%;
+        }
+
+    }
+    
+    @media (min-width: 768px){
+        .containerLoc{
+            border-top-left-radius: 50% 10%;
+        border-top-right-radius: 50% 10%;
+        border-bottom-left-radius: 50% 10%;
+        border-bottom-right-radius: 50% 10%;}
+
+        }
+
+.containerLoc{
+    background-image: url('https://res.cloudinary.com/dsmdcnoys/image/upload/v1643401665/Varios/allplanets_knlo2u.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+        position: relative;
+        box-shadow: 0 0 5px black inset,0 0 10px black inset,0 0 15px black inset,0 0 20px black inset,
+        0 0 25px black inset, 0 0 5px black,0 0 10px black,0 0 15px black;
+    margin-top: 2%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+.uniqLi{
+    background: url('https://res.cloudinary.com/dsmdcnoys/image/upload/v1643410267/Varios/nave_lcn9um.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height:250px;
+}
+
+.pPlan{
+    background-color:rgba(0, 176, 199, 0.753);
+    box-shadow: 0 0 10px rgb(194,216,116),0 0 15px rgb(194,216,116);
+    font-weight: bold;
+}
