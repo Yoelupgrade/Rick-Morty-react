@@ -41,3 +41,49 @@ p{
     justify-content: center;
     margin: 0;
 }
+
+.pText{
+    background-color:transparent;
+    margin:5px;
+    box-shadow: 0 0 10px rgba(31, 185, 0, 0),0 0 15px rgba(31, 185, 0, 0);
+}
+
+.descChar{
+    width:70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+    text-align: center;
+    background-color:rgba(0, 176, 199, 0.705);
+    box-shadow: 0 0 10px rgb(31, 185, 0),0 0 15px rgb(31, 185, 0);
+    border-radius: 30%;
+}
+
+input{
+    border-radius: 10px;
+    text-align: center;
+}
+
+h3{
+    width:100%;
+    color:white;
+}
+
+button{
+    border-radius: 10px;
+    background-color:rgba(31, 185, 0, 0.5);
+    box-shadow: 0 0 10px white;
+    color:white;
+    font-weight: bold;
+    width: 8%;
+    margin:2px;
+}
+
+.divSerch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

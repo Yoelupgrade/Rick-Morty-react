@@ -1,8 +1,6 @@
 import axios from 'axios'
 import React, { useState, useEffect } from 'react'
 import Gallery from '../Gallery/Gallery'
-import Searcher from '../Searcher/Searcher'
-
 
 export const Characters = () => {
 
@@ -21,10 +19,7 @@ export const Characters = () => {
 
 
   return(
-    <>
-    <Searcher/>
    <Gallery items={items} pages20={getAllcharacters}/>
-   </>
   )
 }
   
